@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: Arial;
+  gap: 20px;
+}
+
+#timer {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+#mcqueen {
+  width: 80px;
+  height: 80px;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
