@@ -18,6 +18,13 @@ body {
   height: 80px;
   background: red;
   border: none;
-  border-radius: 5px;
+  cursor: pointer;
+}
+
+#mcqueen2 {
+  width: 80px;
+  height: 80px;
+  background: blue;
+  border: none;
   cursor: pointer;
 }

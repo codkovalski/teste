@@ -1,6 +1,6 @@
 const timer = document.getElementById("timer");
 const mcqueen = document.getElementById("mcqueen");
-
+const mcqueen2 = document.getElementById("mcqueen2");
 let intervalo = null;
 let estado = 0; 
 // 0 parado, 1 rodando, 2 pausado
@@ -58,9 +58,12 @@ mcqueen.addEventListener("click", () => {
     pausar();
   } 
   else if (estado === 2) {
-    resetar();
     iniciar();
   }
+});
+
+mcqueen2.addEventListener("click", () => {
+  resetar();
 });
 
 timer.textContent = "00:00:00.000";
